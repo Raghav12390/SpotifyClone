@@ -1,0 +1,73 @@
+.flex {
+    display: flex;
+}
+
+.border {
+
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-align {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.inverted {
+    filter: invert();
+}
+
+.bg-grey {
+    background-color: #121212;
+    ;
+}
+
+.m1 {
+    margin: 5px;
+}
+
+.logo {
+    padding: 2px;
+}
+
+.border-1 {
+
+    border-end-end-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}/* For Firefox */
+* {
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5); /* thumb and track color */
+}
+
+*::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent; /* color of the track */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid transparent; /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* color of the scroll thumb on hover */
+}
+
+*::-webkit-scrollbar-corner {
+    background: transparent; /* color of the corner */
+}
+    
